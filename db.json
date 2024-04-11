@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "type": "Mouth & Throat",
+                "stateData": {
+                    "state": "Alabama",
+                    "death count": 197,
+                    "incidence count": 764,
+                    "mortality rate": 0.258
+                }
+        },
+        {
+            "id": "50",
+            "type": "Digestive",
+                "stateData": {
+                    "state": "Alaska",
+                    "death count": 324,
+                    "incidence count": 641,
+                    "mortality rate": 0.505
+                }
+        }
+    ]
+}
