@@ -11,8 +11,15 @@ function fetchData () {
             stateDropdown.addEventListener('change', function(e) {
                 let state = e.target.value
 
-                let newArray = [cancerType, state]
-                console.log(newArray)
+                data.find(function (element) {
+                    if(element.type === cancerType) {
+                        document.getElementById('death-count').textContent = `Death Count: ${element[state].deathCount}`
+
+                        document.getElementById('incidence-count').textContent = `Incidence Count: ${element[state].incidenceCount}`
+
+                        document.getElementById('mortality-rate').textContent = `Mortality Rate: ${element[state].mortalityRate}`
+                    }
+                })
             })
         })
     })
