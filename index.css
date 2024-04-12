@@ -2,3 +2,13 @@
 #select-state-text {
     padding-left: 20px
 }
+
+.table-header {
+    padding-left: 20px;
+    padding-top: 20px
+}
+
+.comparison-data {
+    padding-left: 20px;
+    text-align: center
+}

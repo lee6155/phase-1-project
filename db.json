@@ -6,7 +6,7 @@
                 "Alabama": {
                     "deathCount": 197,
                     "incidenceCount": 764,
-                    "mortalityRate": "25.8%"
+                    "mortalityRate": 25.8
                 }
         },
         {
@@ -15,7 +15,7 @@
                 "Alaska": {
                     "deathCount": 324,
                     "incidenceCount": 641,
-                    "mortalityRate": "50.5%"
+                    "mortalityRate": 50.5
                 }
         }
     ]
