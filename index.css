@@ -3,6 +3,18 @@
     padding-left: 20px
 }
 
+#select-type {
+    margin-top: 2px
+}
+
+#select-state {
+    margin-top: 2px
+}
+
+#comparison-button {
+    margin-bottom: 20px
+}
+
 .table-header {
     padding-left: 20px;
     padding-top: 20px
@@ -11,4 +23,8 @@
 .comparison-data {
     padding-left: 20px;
     text-align: center
+}
+
+#clear-table {
+    margin-top: 20px
 }

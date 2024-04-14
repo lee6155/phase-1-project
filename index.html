@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <label>Select Cancer Type:</label>
+    <label id="select-cancer-text">Select Cancer Type:</label>
     <select id="select-type">
         <option class="type" ></option>
         <option class="type">Mouth & Throat</option>
@@ -28,7 +28,7 @@
     <p id="incidence-count">Incidence Count: </p>
     <p id="mortality-rate">Mortality Rate: </p>
 
-    <button id="comparison-button">Click to Add to Comparison</button>
+    <button id="comparison-button">Add Data to Table Below</button>
 
     <table id="comparison-table">
         <tr>
@@ -40,6 +40,8 @@
         </tr>
         
     </table>
+
+    <button id="clear-table">Clear All Data</button>
 
     <script src="index.js"></script>
 </body>
