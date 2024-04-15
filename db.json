@@ -7,15 +7,499 @@
                     "deathCount": 197,
                     "incidenceCount": 764,
                     "mortalityRate": 25.8
+                },
+                "Alaska": {
+                    "deathCount": 18,
+                    "incidenceCount": 103,
+                    "mortalityRate": 17.5
+                },
+                "Arizona": {
+                    "deathCount": 216,
+                    "incidenceCount": 846,
+                    "mortalityRate": 25.5
+                },
+                "Arkansas": {
+                    "deathCount": 111,
+                    "incidenceCount": 491,
+                    "mortalityRate": 22.6
+                },
+                "California": {
+                    "deathCount": 1127,
+                    "incidenceCount": 4485,
+                    "mortalityRate": 25.1
+                },
+                "Colorado": {
+                    "deathCount": 112,
+                    "incidenceCount": 711,
+                    "mortalityRate": 15.8
+                },
+                "Connecticut": {
+                    "deathCount": 104,
+                    "incidenceCount": 533,
+                    "mortalityRate": 19.5
+                },
+                "Delaware": {
+                    "deathCount": 40,
+                    "incidenceCount": 144,
+                    "mortalityRate": 27.8
+                },
+                "Florida": {
+                    "deathCount": 831,
+                    "incidenceCount": 4181,
+                    "mortalityRate": 19.9
+                },
+                "Georgia": {
+                    "deathCount": 347,
+                    "incidenceCount": 1453,
+                    "mortalityRate": 23.9
+                },
+                "Hawaii": {
+                    "deathCount": 57,
+                    "incidenceCount": 242,
+                    "mortalityRate": 23.6
+                },
+                "Idaho": {
+                    "deathCount": 58,
+                    "incidenceCount": 261,
+                    "mortalityRate": 22.2
+                },
+                "Illinois": {
+                    "deathCount": 432,
+                    "incidenceCount": 1859,
+                    "mortalityRate": 23.2
+                },
+                "Iowa": {
+                    "deathCount": 108,
+                    "incidenceCount": 528,
+                    "mortalityRate": 20.5
+                },
+                "Kansas": {
+                    "deathCount": 101,
+                    "incidenceCount": 411,
+                    "mortalityRate": 24.6
+                },
+                "Kentucky": {
+                    "deathCount": 170,
+                    "incidenceCount": 699,
+                    "mortalityRate": 24.3
+                },
+                "Louisiana": {
+                    "deathCount": 171,
+                    "incidenceCount": 719,
+                    "mortalityRate": 23.8
+                },
+                "Maine": {
+                    "deathCount": 65,
+                    "incidenceCount": 281,
+                    "mortalityRate": 23.1
+                },
+                "Maryland": {
+                    "deathCount": 185,
+                    "incidenceCount": 770,
+                    "mortalityRate": 24.0
+                },
+                "Massachusetts": {
+                    "deathCount": 221,
+                    "incidenceCount": 958,
+                    "mortalityRate": 23.1
+                },
+                "Michigan": {
+                    "deathCount": 342,
+                    "incidenceCount": 1441,
+                    "mortalityRate": 23.7
+                },
+                "Minnesota": {
+                    "deathCount": 181,
+                    "incidenceCount": 834,
+                    "mortalityRate": 21.7
+                },
+                "Mississippi": {
+                    "deathCount": 114,
+                    "incidenceCount": 457,
+                    "mortalityRate": 24.9
+                },
+                "Missouri": {
+                    "deathCount": 222,
+                    "incidenceCount": 1031,
+                    "mortalityRate": 21.5
+                },
+                "Montana": {
+                    "deathCount": 47,
+                    "incidenceCount": 170,
+                    "mortalityRate": 27.6
+                },
+                "Nebraska": {
+                    "deathCount": 87,
+                    "incidenceCount": 294,
+                    "mortalityRate": 29.6
+                },
+                "New Hampshire": {
+                    "deathCount": 57,
+                    "incidenceCount": 240,
+                    "mortalityRate": 23.8
+                },
+                "New Jersey": {
+                    "deathCount": 189,
+                    "incidenceCount": 1258,
+                    "mortalityRate": 15.0
+                },
+                "New Mexico": {
+                    "deathCount": 51,
+                    "incidenceCount": 242,
+                    "mortalityRate": 21.1
+                },
+                "New York": {
+                    "deathCount": 565,
+                    "incidenceCount": 2658,
+                    "mortalityRate": 21.3
+                },
+                "North Carolina": {
+                    "deathCount": 408,
+                    "incidenceCount": 1614,
+                    "mortalityRate": 25.3
+                },
+                "North Dakota": {
+                    "deathCount": 19,
+                    "incidenceCount": 132,
+                    "mortalityRate": 14.4
+                },
+                "Ohio": {
+                    "deathCount": 491,
+                    "incidenceCount": 1895,
+                    "mortalityRate": 25.9
+                },
+                "Oklahoma": {
+                    "deathCount": 157,
+                    "incidenceCount": 617,
+                    "mortalityRate": 25.4
+                },
+                "Oregon": {
+                    "deathCount": 154,
+                    "incidenceCount": 633,
+                    "mortalityRate": 24.3
+                },
+                "Pennsylvania": {
+                    "deathCount": 498,
+                    "incidenceCount": 2028,
+                    "mortalityRate": 24.6
+                },
+                "Rhode Island": {
+                    "deathCount": 27,
+                    "incidenceCount": 125,
+                    "mortalityRate": 21.6
+                },
+                "South Carolina": {
+                    "deathCount": 178,
+                    "incidenceCount": 865,
+                    "mortalityRate": 20.6
+                },
+                "South Dakota": {
+                    "deathCount": 29,
+                    "incidenceCount": 128,
+                    "mortalityRate": 22.7
+                },
+                "Tennessee": {
+                    "deathCount": 274,
+                    "incidenceCount": 1075,
+                    "mortalityRate": 25.5
+                },
+                "Texas": {
+                    "deathCount": 811,
+                    "incidenceCount": 3397,
+                    "mortalityRate": 23.9
+                },
+                "Utah": {
+                    "deathCount": 56,
+                    "incidenceCount": 260,
+                    "mortalityRate": 21.5
+                },
+                "Vermont": {
+                    "deathCount": 28,
+                    "incidenceCount": 108,
+                    "mortalityRate": 25.9
+                },
+                "Virginia": {
+                    "deathCount": 256,
+                    "incidenceCount": 1182,
+                    "mortalityRate": 21.7
+                },
+                "Washington": {
+                    "deathCount": 256,
+                    "incidenceCount": 1080,
+                    "mortalityRate": 23.7
+                },
+                "West Virginia": {
+                    "deathCount": 74,
+                    "incidenceCount": 370,
+                    "mortalityRate": 20.0
+                },
+                "Wisconsin": {
+                    "deathCount": 219,
+                    "incidenceCount": 995,
+                    "mortalityRate": 22.0
+                },
+                "Wyoming": {
+                    "deathCount": 22,
+                    "incidenceCount": 78,
+                    "mortalityRate": 28.2
                 }
         },
         {
-            "id": "50",
+            "id": "2",
             "type": "Digestive",
+                "Alabama": {
+                    "deathCount": 2748,
+                    "incidenceCount": 4723,
+                    "mortalityRate": 58.2
+                },
                 "Alaska": {
                     "deathCount": 324,
                     "incidenceCount": 641,
                     "mortalityRate": 50.5
+                },
+                "Arizona": {
+                    "deathCount": 3537,
+                    "incidenceCount": 5834,
+                    "mortalityRate": 60.6
+                },
+                "Arkansas": {
+                    "deathCount": 1656,
+                    "incidenceCount": 2718,
+                    "mortalityRate": 60.9
+                },
+                "California": {
+                    "deathCount": 17878,
+                    "incidenceCount": 31166,
+                    "mortalityRate": 57.4
+                },
+                "Colorado": {
+                    "deathCount": 2231,
+                    "incidenceCount": 4129,
+                    "mortalityRate": 54.0
+                },
+                "Connecticut": {
+                    "deathCount": 1769,
+                    "incidenceCount": 3379,
+                    "mortalityRate": 52.4
+                },
+                "Delaware": {
+                    "deathCount": 602,
+                    "incidenceCount": 922,
+                    "mortalityRate": 65.3
+                },
+                "District of Columbia": {
+                    "deathCount": 295,
+                    "incidenceCount": 520,
+                    "mortalityRate": 56.7
+                },
+                "Florida": {
+                    "deathCount": 11999,
+                    "incidenceCount": 22346,
+                    "mortalityRate": 53.7
+                },
+                "Georgia": {
+                    "deathCount": 4901,
+                    "incidenceCount": 9480,
+                    "mortalityRate": 51.7
+                },
+                "Hawaii": {
+                    "deathCount": 811,
+                    "incidenceCount": 1472,
+                    "mortalityRate": 55.1
+                },
+                "Idaho": {
+                    "deathCount": 794,
+                    "incidenceCount": 1524,
+                    "mortalityRate": 52.1
+                },
+                "Illinois": {
+                    "deathCount": 6600,
+                    "incidenceCount": 11752,
+                    "mortalityRate": 56.2
+                },
+                "Iowa": {
+                    "deathCount": 1602,
+                    "incidenceCount": 2994,
+                    "mortalityRate": 53.5
+                },
+                "Kansas": {
+                    "deathCount": 1505,
+                    "incidenceCount": 2472,
+                    "mortalityRate": 60.9
+                },
+                "Kentucky": {
+                    "deathCount": 2479,
+                    "incidenceCount": 4711,
+                    "mortalityRate": 52.6
+                },
+                "Louisiana": {
+                    "deathCount": 2540,
+                    "incidenceCount": 4748,
+                    "mortalityRate": 53.5
+                },
+                "Maine": {
+                    "deathCount": 843,
+                    "incidenceCount": 1528,
+                    "mortalityRate": 55.2
+                },
+                "Maryland": {
+                    "deathCount": 3016,
+                    "incidenceCount": 5156,
+                    "mortalityRate": 58.5
+                },
+                "Massachusetts": {
+                    "deathCount": 3341,
+                    "incidenceCount": 6004,
+                    "mortalityRate": 55.6
+                },
+                "Michigan": {
+                    "deathCount": 5600,
+                    "incidenceCount": 8803,
+                    "mortalityRate": 63.6
+                },
+                "Minnesota": {
+                    "deathCount": 2638,
+                    "incidenceCount": 5018,
+                    "mortalityRate": 52.6
+                },
+                "Mississippi": {
+                    "deathCount": 1814,
+                    "incidenceCount": 2945,
+                    "mortalityRate": 61.6
+                },
+                "Missouri": {
+                    "deathCount": 3176,
+                    "incidenceCount": 5853,
+                    "mortalityRate": 54.3
+                },
+                "Montana": {
+                    "deathCount": 532,
+                    "incidenceCount": 1009,
+                    "mortalityRate": 52.7
+                },
+                "Nebraska": {
+                    "deathCount": 990,
+                    "incidenceCount": 1660,
+                    "mortalityRate": 59.6
+                },
+                "New Hampshire": {
+                    "deathCount": 731,
+                    "incidenceCount": 1320,
+                    "mortalityRate": 55.4
+                },
+                "New Jersey": {
+                    "deathCount": 4413,
+                    "incidenceCount": 8832,
+                    "mortalityRate": 50.0
+                },
+                "New Mexico": {
+                    "deathCount": 1152,
+                    "incidenceCount": 1798,
+                    "mortalityRate": 64.4
+                },
+                "New York": {
+                    "deathCount": 9223,
+                    "incidenceCount": 18649,
+                    "mortalityRate": 49.5
+                },
+                "North Carolina": {
+                    "deathCount": 5196,
+                    "incidenceCount": 9274,
+                    "mortalityRate": 56.0
+                },
+                "North Dakota": {
+                    "deathCount": 345,
+                    "incidenceCount": 629,
+                    "mortalityRate": 54.8
+                },
+                "Ohio": {
+                    "deathCount": 6388,
+                    "incidenceCount": 11310,
+                    "mortalityRate": 56.5
+                },
+                "Oklahoma": {
+                    "deathCount": 2227,
+                    "incidenceCount": 3483,
+                    "mortalityRate": 63.9
+                },
+                "Oregon": {
+                    "deathCount": 2237,
+                    "incidenceCount": 3618,
+                    "mortalityRate": 61.8
+                },
+                "Pennsylvania": {
+                    "deathCount": 7521,
+                    "incidenceCount": 13068,
+                    "mortalityRate": 57.6
+                },
+                "Rhode Island": {
+                    "deathCount": 530,
+                    "incidenceCount": 967,
+                    "mortalityRate": 54.8
+                },
+                "South Carolina": {
+                    "deathCount": 2868,
+                    "incidenceCount": 4871,
+                    "mortalityRate": 58.9
+                },
+                "South Dakota": {
+                    "deathCount": 479,
+                    "incidenceCount": 821,
+                    "mortalityRate": 58.3
+                },
+                "Tennessee": {
+                    "deathCount": 3708,
+                    "incidenceCount": 6575,
+                    "mortalityRate": 56.4
+                },
+                "Texas": {
+                    "deathCount": 12662,
+                    "incidenceCount": 23094,
+                    "mortalityRate": 54.8
+                },
+                "Utah": {
+                    "deathCount": 935,
+                    "incidenceCount": 1785,
+                    "mortalityRate": 52.4
+                },
+                "Vermont": {
+                    "deathCount": 386,
+                    "incidenceCount": 597,
+                    "mortalityRate": 64.7
+                },
+                "Virginia": {
+                    "deathCount": 4145,
+                    "incidenceCount": 6782,
+                    "mortalityRate": 61.1
+                },
+                "Washington": {
+                    "deathCount": 3525,
+                    "incidenceCount": 6263,
+                    "mortalityRate": 56.3
+                },
+                "West Virginia": {
+                    "deathCount": 1218,
+                    "incidenceCount": 2162,
+                    "mortalityRate": 56.3
+                },
+                "Wisconsin": {
+                    "deathCount": 3054,
+                    "incidenceCount": 5515,
+                    "mortalityRate": 55.4
+                },
+                "Wyoming": {
+                    "deathCount": 305,
+                    "incidenceCount": 506,
+                    "mortalityRate": 60.3
+                }
+        },
+        {
+            "id": "3",
+            "type": "Respiratory"    ,
+                "": {
+                    "deathCount": ,
+                    "incidenceCount": ,
+                    "mortalityRate": 
                 }
         }
     ]
