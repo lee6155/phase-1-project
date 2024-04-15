@@ -47,17 +47,27 @@ function fetchData () {
                 <td class='comparison-data'>${deathCountStr}</td>
                 <td class='comparison-data'>${incidenceCountStr}</td>
                 <td class='comparison-data'>${mortalityRateStr}</td>`
+
             document.getElementById('comparison-table').append(newTR)
+
+            newTR.addEventListener('dblclick', function() {
+                newTR.innerHTML = ''
+            })
+
+            })
         })
+    }
         
         document.getElementById('clear-table').addEventListener('click', function() {
             let tableData = document.getElementsByClassName('comparison-data')
             let tableData2 = [...tableData]
             tableData2.forEach(function(item){
-                item.innerText = ``
+                item.innerText = ''
             })
         })
-    })
-}
+    
+
+
+
         
 fetchData()
