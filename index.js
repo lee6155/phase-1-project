@@ -51,13 +51,14 @@ function fetchData () {
 
             document.getElementById('comparison-table').append(newTR)
 
+            //Event listener
             newTR.addEventListener('dblclick', function() {
                 newTR.remove()
             })
         })
     })
 }
-        
+       
 document.getElementById('clear-table').addEventListener('click', function() {
     let tableData = document.getElementsByClassName('table-row')
     let tableData2 = [...tableData]
