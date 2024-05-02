@@ -1,32 +1,63 @@
 
+body {
+    font-family: Serif;
+    font-size: 17px;
+    max-width: 900px;
+    margin: auto;
+}
+
+#main-header {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#top-style {
+    position: absolute;
+    background-color: lavender;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%
+}
+
+.below-header {
+    margin-top: 150px
+}
+
 #select-state-text {
     padding-left: 20px
 }
 
-#select-type {
-    margin-top: 2px
-}
-
-#select-state {
-    margin-top: 2px
+#unavailable-data {
+    padding-left: 20px;
+    font-size: 15px
 }
 
 #comparison-button {
     margin-bottom: 20px
 }
 
+#comparison-table {
+    margin: auto
+}
+
 .table-header {
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 20px
 }
 
 .comparison-data {
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center
 }
 
 #clear-table {
-    margin-top: 20px
+    margin-top: 30px;
+    margin-bottom: 30px
 }
 
 #text-right-clear-all{

@@ -73,11 +73,6 @@
                     "incidenceCount": 1859,
                     "mortalityRate": 23.2
                 },
-                "Indiana": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
-                },
                 "Iowa": {
                     "deathCount": 108,
                     "incidenceCount": 528,
@@ -142,11 +137,6 @@
                     "deathCount": 87,
                     "incidenceCount": 294,
                     "mortalityRate": 29.6
-                },
-                "Nevada": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
                 },
                 "New Hampshire": {
                     "deathCount": 57,
@@ -332,11 +322,6 @@
                     "incidenceCount": 11752,
                     "mortalityRate": 56.2
                 },
-                "Indiana": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
-                },
                 "Iowa": {
                     "deathCount": 1602,
                     "incidenceCount": 2994,
@@ -401,11 +386,6 @@
                     "deathCount": 990,
                     "incidenceCount": 1660,
                     "mortalityRate": 59.6
-                },
-                "Nevada": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
                 },
                 "New Hampshire": {
                     "deathCount": 731,
@@ -591,11 +571,6 @@
                     "incidenceCount": 9082,
                     "mortalityRate": 62.6
                 },
-                "Indiana": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
-                },
                 "Iowa": {
                     "deathCount": 1546,
                     "incidenceCount": 2542,
@@ -660,11 +635,6 @@
                     "deathCount": 741,
                     "incidenceCount": 1165,
                     "mortalityRate": 63.6
-                },
-                "Nevada": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
                 },
                 "New Hampshire": {
                     "deathCount": 669,
@@ -779,7 +749,7 @@
         },
         {
             "id": "4",
-            "type": "Bones & Joints",
+            "type": "Bone & Joint",
                 "Alabama": {
                     "deathCount": 52,
                     "incidenceCount": 62,
@@ -845,11 +815,6 @@
                     "incidenceCount": 132,
                     "mortalityRate": 46.2
                 },
-                "Indiana": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
-                },
                 "Iowa": {
                     "deathCount": 19,
                     "incidenceCount": 37,
@@ -908,11 +873,6 @@
                 "Nebraska": {
                     "deathCount": "N/A",
                     "incidenceCount": 16,
-                    "mortalityRate": "N/A"
-                },
-                "Nevada": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
                     "mortalityRate": "N/A"
                 },
                 "New Hampshire": {
@@ -1099,11 +1059,6 @@
                     "incidenceCount": 467,
                     "mortalityRate": 45.6
                 },
-                "Indiana": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
-                },
                 "Iowa": {
                     "deathCount": 56,
                     "incidenceCount": 137,
@@ -1168,11 +1123,6 @@
                     "deathCount": 25,
                     "incidenceCount": 54,
                     "mortalityRate": 46.3
-                },
-                "Nevada": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
                 },
                 "New Hampshire": {
                     "deathCount": 25,
@@ -1358,11 +1308,6 @@
                     "incidenceCount": 3261,
                     "mortalityRate": 14.3
                 },
-                "Indiana": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
-                },
                 "Iowa": {
                     "deathCount": 151,
                     "incidenceCount": 1205,
@@ -1427,11 +1372,6 @@
                     "deathCount": 95,
                     "incidenceCount": 503,
                     "mortalityRate": 18.9
-                },
-                "Nevada": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
                 },
                 "New Hampshire": {
                     "deathCount": 68,
@@ -1617,11 +1557,6 @@
                     "incidenceCount": 9934,
                     "mortalityRate": 17.4
                 },
-                "Indiana": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
-                },
                 "Iowa": {
                     "deathCount": 399,
                     "incidenceCount": 2552,
@@ -1686,11 +1621,6 @@
                     "deathCount": 278,
                     "incidenceCount": 1424,
                     "mortalityRate": 19.5
-                },
-                "Nevada": {
-                    "deathCount": "N/A" ,
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
                 },
                 "New Hampshire": {
                     "deathCount": 183,
@@ -1876,11 +1806,6 @@
                     "incidenceCount": 3971,
                     "mortalityRate": 33.8
                 },
-                "Indiana": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
-                },
                 "Iowa": {
                     "deathCount": 353,
                     "incidenceCount": 1026,
@@ -1945,11 +1870,6 @@
                     "deathCount": 179,
                     "incidenceCount": 505,
                     "mortalityRate": 35.4
-                },
-                "Nevada": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
                 },
                 "New Hampshire": {
                     "deathCount": 137,
@@ -2135,11 +2055,6 @@
                     "incidenceCount": 8778,
                     "mortalityRate": 14.9
                 },
-                "Indiana": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
-                },
                 "Iowa": {
                     "deathCount": 354,
                     "incidenceCount": 2493,
@@ -2204,11 +2119,6 @@
                     "deathCount": 198,
                     "incidenceCount": 1214,
                     "mortalityRate": 16.3
-                },
-                "Nevada": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
                 },
                 "New Hampshire": {
                     "deathCount": 159,
@@ -2394,11 +2304,6 @@
                     "incidenceCount": 5654,
                     "mortalityRate": 21.8
                 },
-                "Indiana": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
-                },
                 "Iowa": {
                     "deathCount": 347,
                     "incidenceCount": 1698,
@@ -2463,11 +2368,6 @@
                     "deathCount": 174,
                     "incidenceCount": 792,
                     "mortalityRate": 22.0
-                },
-                "Nevada": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
                 },
                 "New Hampshire": {
                     "deathCount": 133,
@@ -2653,11 +2553,6 @@
                     "incidenceCount": 858,
                     "mortalityRate": 76.9
                 },
-                "Indiana": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
-                },
                 "Iowa": {
                     "deathCount": 179,
                     "incidenceCount": 250,
@@ -2722,11 +2617,6 @@
                     "deathCount": 125,
                     "incidenceCount": 133,
                     "mortalityRate": 94.0
-                },
-                "Nevada": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
                 },
                 "New Hampshire": {
                     "deathCount": 111,
@@ -2912,11 +2802,6 @@
                     "incidenceCount": 1652,
                     "mortalityRate": 7.2
                 },
-                "Indiana": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
-                },
                 "Iowa": {
                     "deathCount": 23,
                     "incidenceCount": 439,
@@ -2981,11 +2866,6 @@
                     "deathCount": 17,
                     "incidenceCount": 318,
                     "mortalityRate": 5.3
-                },
-                "Nevada": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
                 },
                 "New Hampshire": {
                     "deathCount": "N/A",
@@ -3171,11 +3051,6 @@
                     "incidenceCount": 2975,
                     "mortalityRate": 27.4
                 },
-                "Indiana": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
-                },
                 "Iowa": {
                     "deathCount": 233,
                     "incidenceCount": 944,
@@ -3240,11 +3115,6 @@
                     "deathCount": 131,
                     "incidenceCount": 405,
                     "mortalityRate": 32.3
-                },
-                "Nevada": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
                 },
                 "New Hampshire": {
                     "deathCount": 110,
@@ -3430,11 +3300,6 @@
                     "incidenceCount": 999,
                     "mortalityRate": 45.6
                 },
-                "Indiana": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
-                },
                 "Iowa": {
                     "deathCount": 144,
                     "incidenceCount": 291,
@@ -3499,11 +3364,6 @@
                     "deathCount": 74,
                     "incidenceCount": 130,
                     "mortalityRate": 56.9
-                },
-                "Nevada": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
                 },
                 "New Hampshire": {
                     "deathCount": 60,
@@ -3689,11 +3549,6 @@
                     "incidenceCount": 1841,
                     "mortalityRate": 51.8
                 },
-                "Indiana": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
-                },
                 "Iowa": {
                     "deathCount": 253,
                     "incidenceCount": 563,
@@ -3758,11 +3613,6 @@
                     "deathCount": 141,
                     "incidenceCount": 307,
                     "mortalityRate": 45.9
-                },
-                "Nevada": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
                 },
                 "New Hampshire": {
                     "deathCount": 95,
@@ -3948,11 +3798,6 @@
                     "incidenceCount": 117,
                     "mortalityRate": 85.5
                 },
-                "Indiana": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
-                    "mortalityRate": "N/A"
-                },
                 "Iowa": {
                     "deathCount": 31,
                     "incidenceCount": 34,
@@ -4016,11 +3861,6 @@
                 "Nebraska": {
                     "deathCount": "N/A",
                     "incidenceCount": 19,
-                    "mortalityRate": "N/A"
-                },
-                "Nevada": {
-                    "deathCount": "N/A",
-                    "incidenceCount": "N/A",
                     "mortalityRate": "N/A"
                 },
                 "New Hampshire": {

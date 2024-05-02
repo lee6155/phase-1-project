@@ -2,7 +2,7 @@
 function fetchData () {
     fetch('http://localhost:3000/data')
     .then(resp => resp.json())
-    .then(function getTypes (data) {
+    .then(function (data) {
         let cancerDropdown = document.getElementById('select-type')
         //Event listener
         let cancerArray = []
@@ -13,7 +13,7 @@ function fetchData () {
 
         let stateDropdown = document.getElementById('select-state')
         let stateArray = []
-        stateDropdown.addEventListener('change', function(e) {
+        stateDropdown.addEventListener('change', function getState(e) {
             let state = e.target.value
             stateArray.push(state)
 
@@ -41,6 +41,7 @@ function fetchData () {
             mortalityRateStr = mortalityRateStr.substring(16)
 
             let newTR = document.createElement('tr')
+            newTR.setAttribute('class','table-row')
             newTR.innerHTML =
                 `<td class='comparison-data'>${cancerArray[cancerArray.length - 1]}</td>
                 <td class='comparison-data'>${stateArray[stateArray.length - 1]}</td>
@@ -51,23 +52,19 @@ function fetchData () {
             document.getElementById('comparison-table').append(newTR)
 
             newTR.addEventListener('dblclick', function() {
-                newTR.innerHTML = ''
-            })
-
+                newTR.remove()
             })
         })
-    }
+    })
+}
         
-        document.getElementById('clear-table').addEventListener('click', function() {
-            let tableData = document.getElementsByClassName('comparison-data')
-            let tableData2 = [...tableData]
-            tableData2.forEach(function(item){
-                item.innerText = ''
-            })
-        })
-    
+document.getElementById('clear-table').addEventListener('click', function() {
+    let tableData = document.getElementsByClassName('table-row')
+    let tableData2 = [...tableData]
+    tableData2.forEach(function(item){
+        item.remove()
+    })
+})
 
-
-
-        
 fetchData()
+

@@ -10,26 +10,93 @@
 </head>
 
 <body>
-    <label id="select-cancer-text">Select Cancer Type:</label>
-    <select id="select-type">
+    <div id="top-style">
+        <h1 id="main-header">U.S. Cancer Database</h1>
+    </div>
+
+    <label id="select-cancer-text" class="below-header">Select Cancer Type:</label>
+    <select id="select-type" class="below-header">
         <option class="type" ></option>
         <option class="type">Mouth & Throat</option>
         <option class="type">Digestive</option>
+        <option class="type">Respiratory</option>
+        <option class="type">Bone & Joint</option>
+        <option class="type">Soft Tissue incl. Heart</option>
+        <option class="type">Skin excl. Basal & Squamous</option>
+        <option class="type">Breast</option>
+        <option class="type">Female Reproductive</option>
+        <option class="type">Male Reproductive</option>
+        <option class="type">Urinary</option>
+        <option class="type">Brain & Other Nervous System</option>
+        <option class="type">Endocrine</option>
+        <option class="type">Lymphomas</option>
+        <option class="type">Myeloma</option>
+        <option class="type">Leukemias</option>
+        <option class="type">Mesothelioma</option>
     </select>
 
-    <label id="select-state-text">Select US State:</label>
-    <select id="select-state">
+    <label id="select-state-text" class="below-header">Select US State:</label>
+    <select id="select-state" class="below-header">
         <option class="state"></option>
         <option class="state">Alabama</option>
         <option class="state">Alaska</option>
+        <option class="state">Arizona</option>
+        <option class="state">Arkansas</option>
+        <option class="state">California</option>
+        <option class="state">Colorado</option>
+        <option class="state">Connecticut</option>
+        <option class="state">Delaware</option>
+        <option class="state">District of Columbia</option>
+        <option class="state">Florida</option>
+        <option class="state">Georgia</option>
+        <option class="state">Hawaii</option>
+        <option class="state">Idaho</option>
+        <option class="state">Illinois</option>
+        <option class="state">Iowa</option>
+        <option class="state">Kansas</option>
+        <option class="state">Kentucky</option>
+        <option class="state">Louisiana</option>
+        <option class="state">Maine</option>
+        <option class="state">Maryland</option>
+        <option class="state">Massachusetts</option>
+        <option class="state">Michigan</option>
+        <option class="state">Minnesota</option>
+        <option class="state">Mississippi</option>
+        <option class="state">Missouri</option>
+        <option class="state">Montana</option>
+        <option class="state">Nebraska</option>
+        <option class="state">New Hampshire</option>
+        <option class="state">New Jersey</option>
+        <option class="state">New Mexico</option>
+        <option class="state">New York</option>
+        <option class="state">North Carolina</option>
+        <option class="state">North Dakota</option>
+        <option class="state">Ohio</option>
+        <option class="state">Oklahoma</option>
+        <option class="state">Oregon</option>
+        <option class="state">Pennsylvania</option>
+        <option class="state">Rhode Island</option>
+        <option class="state">South Carolina</option>
+        <option class="state">South Dakota</option>
+        <option class="state">Tennessee</option>
+        <option class="state">Texas</option>
+        <option class="state">Utah</option>
+        <option class="state">Vermont</option>
+        <option class="state">Virginia</option>
+        <option class="state">Washington</option>
+        <option class="state">West Virginia</option>
+        <option class="state">Wisconsin</option>
+        <option class="state">Wyoming</option>
     </select>
+
+    <p id="unavailable-data" class="below-header" style="display: inline">*Data unavailable for Indiana & Nevada</p>
 
     <p id="death-count">Death Count: </p>
     <p id="incidence-count">Incidence Count: </p>
     <p id="mortality-rate">Mortality Rate: </p>
 
     <button id="comparison-button">Add Data to Table Below</button>
-
+    
     <table id="comparison-table">
         <tr>
             <th class="table-header">Cancer Type</th>
@@ -37,8 +104,7 @@
             <th class="table-header">Death Count</th>
             <th class="table-header">Incidence Count</th>
             <th class="table-header">Mortality Rate</th>
-        </tr>
-        
+        </tr>    
     </table>
 
     <button id="clear-table">Clear All Data</button>
