@@ -1,25 +1,25 @@
+//find doesnt find value, just manipulates DOM
 
-function fetchData () {
+let cancerType
+let state
+
+function getData () {
     fetch('http://localhost:3000/data')
     .then(resp => resp.json())
     .then(function (data) {
         let cancerDropdown = document.getElementById('select-type')
         //Event listener
-        let cancerArray = []
-        cancerDropdown.addEventListener('change', function getCancerType(e) {
-            let cancerType = e.target.value
-            cancerArray.push(cancerType)
+        cancerDropdown.addEventListener('change', function (e) {
+            cancerType = e.target.value
         })
 
         let stateDropdown = document.getElementById('select-state')
-        let stateArray = []
-        stateDropdown.addEventListener('change', function getState(e) {
-            let state = e.target.value
-            stateArray.push(state)
+        stateDropdown.addEventListener('change', function (e) {
+            state = e.target.value
 
             //Array iteration
             data.find(function (element) {
-                if(element.type === cancerArray[cancerArray.length - 1]) {
+                if(element.type === cancerType) {
                     document.getElementById('death-count').textContent = `Death Count: ${element[state].deathCount}`
 
                     document.getElementById('incidence-count').textContent = `Incidence Count: ${element[state].incidenceCount}`
@@ -28,46 +28,62 @@ function fetchData () {
                 }
             })
         })
-        
-        //Event listener
-        document.getElementById('comparison-button').addEventListener('click', function() {
-            let deathCountStr = document.getElementById('death-count').textContent
-            deathCountStr = deathCountStr.substring(13)
+    })
+}
 
-            let incidenceCountStr = document.getElementById('incidence-count').textContent
-            incidenceCountStr = incidenceCountStr.substring(17)
+getData()
 
-            let mortalityRateStr = document.getElementById('mortality-rate').textContent
-            mortalityRateStr = mortalityRateStr.substring(16)
 
-            let newTR = document.createElement('tr')
-            newTR.setAttribute('class','table-row')
-            newTR.innerHTML =
-                `<td class='comparison-data'>${cancerArray[cancerArray.length - 1]}</td>
-                <td class='comparison-data'>${stateArray[stateArray.length - 1]}</td>
-                <td class='comparison-data'>${deathCountStr}</td>
-                <td class='comparison-data'>${incidenceCountStr}</td>
-                <td class='comparison-data'>${mortalityRateStr}</td>`
+function addToTable () {
+    //Event listener
+    document.getElementById('comparison-button').addEventListener('click', function() {
+        let deathCountStr = document.getElementById('death-count').textContent
+        deathCountStr = deathCountStr.substring(13)
 
-            document.getElementById('comparison-table').append(newTR)
+        let incidenceCountStr = document.getElementById('incidence-count').textContent
+        incidenceCountStr = incidenceCountStr.substring(17)
 
-            //Event listener
-            newTR.addEventListener('dblclick', function() {
-                newTR.remove()
-            })
+        let mortalityRateStr = document.getElementById('mortality-rate').textContent
+        mortalityRateStr = mortalityRateStr.substring(16)
+
+        newTableRow = document.createElement('tr')
+        newTableRow.setAttribute('class','table-row')
+        newTableRow.innerHTML =
+            `<td class="comparison-data">${cancerType}</td>
+            <td class="comparison-data">${state}</td>
+            <td class="comparison-data">${deathCountStr}</td>
+            <td class="comparison-data">${incidenceCountStr}</td>
+            <td class="comparison-data">${mortalityRateStr}</td>`
+
+        document.getElementById('comparison-table').append(newTableRow)
+    })        
+}
+
+addToTable()
+
+
+function deleteTableRow () {
+    //Event listener
+    document.addEventListener('dblclick', function(e){
+        const tableRow = e.target.closest('.table-row')
+        tableRow.remove()
+    })
+}
+
+deleteTableRow()
+       
+
+function deleteAllTableRows() {
+    document.getElementById('clear-table').addEventListener('click', function() {
+        let tableData = document.getElementsByClassName('table-row')
+        let tableData2 = [...tableData]
+        tableData2.forEach(function(item){
+            item.remove()
         })
     })
 }
-       
-document.getElementById('clear-table').addEventListener('click', function() {
-    let tableData = document.getElementsByClassName('table-row')
-    let tableData2 = [...tableData]
-    tableData2.forEach(function(item){
-        item.remove()
-    })
-})
 
-fetchData()
+deleteAllTableRows()
 
 
 
