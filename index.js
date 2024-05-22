@@ -1,4 +1,3 @@
-//find doesnt find value, just manipulates DOM
 
 let cancerType
 let state
@@ -18,15 +17,14 @@ function getData () {
             state = e.target.value
 
             //Array iteration
-            data.find(function (element) {
-                if(element.type === cancerType) {
-                    document.getElementById('death-count').textContent = `Death Count: ${element[state].deathCount}`
-
-                    document.getElementById('incidence-count').textContent = `Incidence Count: ${element[state].incidenceCount}`
-
-                    document.getElementById('mortality-rate').textContent = `Mortality Rate: ${element[state].mortalityRate}%`
-                }
+            let dataFound = data.find(function (element) {
+                return element.type === cancerType
             })
+                document.getElementById('death-count').textContent = `Death Count: ${dataFound[state].deathCount}`
+
+                document.getElementById('incidence-count').textContent = `Incidence Count: ${dataFound[state].incidenceCount}`
+
+                document.getElementById('mortality-rate').textContent = `Mortality Rate: ${dataFound[state].mortalityRate}%`
         })
     })
 }
