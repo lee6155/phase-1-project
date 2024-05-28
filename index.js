@@ -75,6 +75,7 @@ function deleteAllTableRows() {
     document.getElementById('clear-table').addEventListener('click', function() {
         let tableData = document.getElementsByClassName('table-row')
         let tableData2 = [...tableData]
+        //Array iteration
         tableData2.forEach(function(item){
             item.remove()
         })
